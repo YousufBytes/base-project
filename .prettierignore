@@ -1,7 +1,17 @@
 /.vscode
+<!-- Ignore .vscode folder in the root (starts with a dot because it's hidden) -->
+
 /node_modules
-./dist
+<!-- Ignore the node_modules folder in the root directory. -->
+
+/dist
+<!-- Ignore dist folder in root -->
 
 *.env
+<!-- please ignore any file that ends in .env no matter what comes before it(* represents no matter what comes before it) -->
+
 .env
+<!-- please ignore the file named .env -->
+
 .env.*
+<!--please ignore any file that starts with .env. no matter what comes after it. (* represents no matter what comes after it) -->
