@@ -1,4 +1,5 @@
 class apiError extends Error {
+    //Error is the built-in class for node.js
     
     constructor(
          
